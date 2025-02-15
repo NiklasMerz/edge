@@ -81,7 +81,10 @@
                 document.body.style.setProperty('--status-color', e.target.value);
             });
 
-            document.querySelector("#safe-area-top").innerHTML = getComputedStyle(document.documentElement).getPropertyValue("--safe-area-top");
+            // Wait for DOM to be ready
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelector("#safe-area-top").innerText = getComputedStyle(document.documentElement).getPropertyValue("--safe-area-top");
+            });
         </script>
     </body>
 </html>
