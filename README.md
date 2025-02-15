@@ -15,8 +15,12 @@ The code for the testing site is on [GitHub](https://github.com/niklasmerz/edge)
 
 Videos:
 
-<video src="./WKWebView.mp4" width="320" height="240" controls></video>
-<video src="./Android.webm" width="320" height="240" controls></video>
+[Android.webm](https://github.com/user-attachments/assets/c71c05dd-af8f-4695-b328-dad7d134ed00)
+
+
+
+https://github.com/user-attachments/assets/9dbe864c-cafd-4f03-8786-f3448eb51c69
+
 
 ### Test form scratch
 
