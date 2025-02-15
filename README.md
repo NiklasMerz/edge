@@ -11,11 +11,12 @@ For context this issue came up in the Apache Cordova community while we prepared
 
 There is a test page on https://niklas.merz.dev that lets you toggle between `viewport-fit=contain`and `viewport-fit=auto`. It shows the value of `--safe-area-top`. Opening this page in a full screen WebView on Android or iOS shows the inconsistent behavior between both WebViews.
 
-The code for the testing site is on [GitHub](https://github.com/niklasmerz/edge) and WebView [test apps](https://github.com/search?q=topic%3Aapp+org%3AWebView-CG&type=Repositories) are in development.
+The code for the testing site is on [GitHub](https://github.com/niklasmerz/edge).
 
 Videos:
 
 <video src="./WKWebView.mp4" width="320" height="240" controls></video>
+<video src="./Android.webm" width="320" height="240" controls></video>
 
 ### Test form scratch
 
