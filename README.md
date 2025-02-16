@@ -59,6 +59,7 @@ We found some issues that might be related:
 - [Google Issue 40699457](https://issuetracker.google.com/issues/40699457) (for CSS env variables, though not precisely the same issue)  
 - [Chromium Issue 394337118](https://issues.chromium.org/issues/394337118) (touches on `viewport-fit` but may not be specific to WebView)  
 - [W3C: CSS Round Display Level 1](https://www.w3.org/TR/css-round-display-1/#viewport-fit-descriptor) (specification that describes `viewport-fit`)
+- [W3C env() CSS Draft Spec](https://drafts.csswg.org/css-env-1/) (work in progress)
 
 ## Suggested Fix or Next Steps
 
