@@ -1,5 +1,7 @@
 # Inconsistent `safe-area-inset-*` and `viewport-fit` Behavior on Android WebView vs. iOS
 
+Google Issue: https://issuetracker.google.com/issues/396827865
+
 ## Overview
 
 When using `viewport-fit` on Android WebView, the handling of safe area insets (`env(safe-area-inset-*)`) differs from iOS Safari (or iOS WebView). On iOS, the safe-area insets (e.g., `safe-area-inset-top`) are set to `0` unless `viewport-fit=cover` is explicitly used. On Android WebView, these insets are consistently set to non-zero values even if `viewport-fit=contain` or `viewport-fit=auto` is used. This mismatch leads to layout issues where Android WebView does not automatically avoid notches or rounded display cutouts, contrary to expectations and the behavior on iOS WKWebView.
